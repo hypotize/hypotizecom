@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hypotize KK | Multilingual Services in Tokyo</title>
+
+  <!-- IBM Plex Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:300,400,500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --brand-bg: rgb(202, 171, 132);
+      --text: rgb(53, 51, 52);
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      background: var(--brand-bg);
+      color: var(--text);
+      font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .header-text,
+    .footer {
+      text-align: center;
+      padding: 18px 20px;
+      font-size: 18px; /* ~25% increase from 14px */
+      line-height: 1.5;
+      letter-spacing: 0.3px;
+    }
+
+    .header-text {
+      font-weight: 400;
+    }
+
+    .banner {
+      width: 100%;
+      line-height: 0;
+    }
+
+    .banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .footer {
+      font-weight: 300;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(53, 51, 52, 0.35);
+    }
+
+    a:hover,
+    a:focus {
+      border-bottom-color: rgba(53, 51, 52, 0.7);
+    }
+
+    @media (max-width: 520px) {
+      .header-text,
+      .footer {
+        font-size: 16px;
+        padding: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+
+    <div class="header-text">
+      Hypotize株式会社 (ハイポタイズ) | 〒238-0111 神奈川県三浦市初声町下宮田160-2 |
+      <a href="mailto:mail@hypotize.com">mail@hypotize.com</a> |
+      <a href="tel:0468766777">046-876-6777</a>
+    </div>
+
+    <section class="banner" aria-label="Hypotize KK banner">
+      <img src="bannerlogo.jpg" alt="Hypotize KK" />
+    </section>
+
+    <div class="footer">
+      Hypotize KK | 160-2 Hassemachi Shimomiyata, Miura-shi, Kanagawa 238-0111, JAPAN |
+      <a href="mailto:mail@hypotize.com">mail@hypotize.com</a> |
+      <a href="tel:+81468766777">+81-46-876-6777</a>
+    </div>
+
+  </main>
+</body>
+</html>
